@@ -53,11 +53,11 @@
 
             #region Soru Bilgileri
             soruNo = 1;
-            soru = "Türkiyenin Başkenti Neresidir?";
-            a = "Ankara";
-            b = "Bursa";
-            c = "Van";
-            d = "Denizli";
+            soru = "Aşağıdakilerden hangisi dahili donanım birimidir?";
+            a = "Anakart";
+            b = "Kasa";
+            c = "Ekran";
+            d = "Tarayıcı";
             cevap = 'A';
             odul = 1000;
             baraj = 0;

@@ -27,7 +27,7 @@
 
             if (kuralCevap != 'E')
             {
-                // TODO: Kurallar eklenecek.
+                
                 Console.WriteLine("Kurallar: asdfasdaads");
             }
 
@@ -60,13 +60,13 @@
             d = "Denizli";
             cevap = 'A';
             odul = 1000;
-            baraj = 0;// TODO: SoruNo ile baraj ilişkisi.
+            baraj = 0;
 
-            // TODO: SoruNo ile ilişkili olarak Rastgele değerler olması lazım.
+            
             seyirciYuzdeA = 80; seyirciYuzdeB = 10;
             seyirciYuzdeC = 5; seyirciYuzdeD = 5;
 
-            // TODO: Daha iyi olabirlir mi? Her seferinde bunu tekrarlamaya gerek yok gibi.
+            
             gizleA = false; gizleB = false;
             gizleC = false; gizleD = false;
         #endregion
@@ -111,7 +111,7 @@
                 }
                 else if (jokerCevap == 2 && yuzdeHak)
                 {
-                    // TODO: Bu kısım sorudan bağımsız kullanılabilmeli.
+                    
                     gizleB = true;
                     gizleC = true;
 
@@ -127,7 +127,7 @@
                     int telefonCevap = int.Parse(Console.ReadLine());
 
                     if (soruNo <= 7 || telefonCevap == 3) Console.WriteLine("Cevap Kesinlikle " + cevap);
-                    else if (telefonCevap == 1)// TODO: Şıklar rastgele olacak. 1Doğru 1Yanlış cevap şeklinde
+                    else if (telefonCevap == 1)
                         Console.WriteLine("Emin Değilim. Ancak A veya B olduğunu düşünüyorum");
                     else if (telefonCevap == 2)
                         Console.WriteLine("Bilemedim. Kusura bakma");
@@ -149,7 +149,7 @@
                 {
                     Console.WriteLine("Tebrikler, " + kasa + " TL Kazandınız.");
                     Console.WriteLine("Oyun Bitti");
-                    //return;
+                    
                     Environment.Exit(0);
                 }
                 goto soruNoktasi;
@@ -159,7 +159,7 @@
             {
                 Console.WriteLine("Elendiniz, Kazandığınız Tutar: " + baraj + " TL");
                 Console.WriteLine("Oyun Bitti");
-                //return;
+                
                 Environment.Exit(0);
             }
             kasa = odul;
